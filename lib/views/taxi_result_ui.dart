@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_taxi_calculate_app/views/taxi_home_ui.dart';
 import 'package:intl/intl.dart';
 
 class TaxiResultUI extends StatefulWidget {
