@@ -161,7 +161,7 @@ class _TaxiHomeUIState extends State<TaxiHomeUI> {
                       if (_distanceCtrl.text.isEmpty) {
                         _warningDialog('อย่าลืมป้อน "ระยะทาง" ด้วยนะ!');
                       } else if (_trafficJamDurationCtrl.text.isEmpty) {
-                        _warningDialog('อย่าลืมป้อน"เวลารถติด" ด้วยนะ!');
+                        _warningDialog('อย่าลืมป้อน "เวลารถติด" ด้วยนะ!');
                       } else {
                         //พร้อมคำนวณแล้วส่งไปแสดงผลที่หน้า ResultScreenUI
                         // แปลงราคากับอัตราดอกเบี้ยเป็นตัวเลขก่อน

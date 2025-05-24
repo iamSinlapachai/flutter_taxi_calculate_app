@@ -24,9 +24,9 @@ class _FlutterTaxiCalculateAppState extends State<FlutterTaxiCalculateApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TaxiResultUI(),
+      home: TaxiHomeUI(),
       theme: ThemeData(
-        textTheme: GoogleFonts.poppinsTextTheme(
+        textTheme: GoogleFonts.kanitTextTheme(
           Theme.of(context).textTheme,
         ),
       ),
