@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_taxi_calculate_app/views/taxi_home_ui.dart';
+import 'package:flutter_taxi_calculate_app/views/taxi_result_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class _FlutterTaxiCalculateAppState extends State<FlutterTaxiCalculateApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TaxiHomeUI(),
+      home: TaxiResultUI(),
       theme: ThemeData(
         textTheme: GoogleFonts.poppinsTextTheme(
           Theme.of(context).textTheme,
